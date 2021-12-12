@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <!--Script-->
+    <script src="./js/main.js" type="text/javascript"></script>
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet"> 
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css" integrity="sha512-gRH0EcIcYBFkQTnbpO8k0WlsD20x5VzjhOA1Og8+ZUAhcMUCvd+APD35FJw3GzHAP3e+mP28YcDJxVr745loHw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Login</title>
+</head>
+<body>
+
+    <header>
+        <h1>Login</h1>
+    </header>
+
+    <main>
+        <form>
+            <section class="inputs-container">
+                <input type="email" placeholder="example@gmail.com">
+
+                <div class="passoword-container">
+                    <input type="password" id="field-password" class="field-password" placeholder="******">
+                    <i class="far fa-eye" id="eye" onclick="showPassword()"></i>
+                    <i class="far fa-eye-slash" id="eye2" onclick="showPassword()"></i>
+                </div>
+            </section>
+
+            <section class="passoword-infos">
+                <div>
+                    <input type="checkbox">
+                    <span>Lembrar Senha?</span>
+                </div>
+
+                <a href="#">Esqueceu a Senha?</a>
+            </section>
+
+            <button id="btn-login">Login</button>
+
+            <section class="links-container">
+                <span>Ou entre com:</span>
+
+                <aside>
+                    <a href=""><i class="fab fa-google google"></i></a>
+                    <a href=""><i class="fab fa-linkedin-in linkedin"></i></a>
+                    <a href=""><i class="fab fa-facebook-f facebook"></i></a>
+                </aside>
+            </section>
+
+            <footer>
+                <hr>
+
+                <span>Ainda não tem uma conta? <a href="">Cadastre-se</a></span>
+            </footer>
+        </form>
+    </main>
+    
+</body>
+</html>
